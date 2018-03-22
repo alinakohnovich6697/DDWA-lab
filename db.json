@@ -1,0 +1,76 @@
+{
+  "computers": [
+    {
+      "countCores": "9999",
+      "processorType": "qweqwe",
+      "frequency": "2",
+      "manufacturer": "qqqasda",
+      "hardDisk": "qqq231",
+      "typeOfRAM": "1qweq",
+      "technologyHyperThreading": true,
+      "bitArchitecture": true,
+      "type": true,
+      "id": 16
+    },
+    {
+      "countCores": "1",
+      "processorType": "qqegh",
+      "frequency": "5",
+      "manufacturer": "hg",
+      "hardDisk": "trt",
+      "typeOfRAM": "65",
+      "videoCard": "fg",
+      "webcam": "Да",
+      "type": false,
+      "id": 17
+    },
+    {
+      "countCores": "20031",
+      "processorType": "asdas",
+      "frequency": "1231",
+      "manufacturer": "qweq",
+      "hardDisk": "qweq",
+      "typeOfRAM": "1231",
+      "technologyHyperThreading": false,
+      "bitArchitecture": true,
+      "type": true,
+      "id": 18
+    },
+    {
+      "countCores": "5",
+      "processorType": "aaa",
+      "frequency": "1234",
+      "manufacturer": "asdfg",
+      "hardDisk": "ygefg",
+      "typeOfRAM": "1234",
+      "technologyHyperThreading": false,
+      "bitArchitecture": true,
+      "type": true,
+      "id": 20
+    },
+    {
+      "countCores": "2",
+      "processorType": "df",
+      "frequency": "1111111",
+      "manufacturer": "sddf",
+      "hardDisk": "ssdd",
+      "typeOfRAM": "12345",
+      "technologyHyperThreading": false,
+      "bitArchitecture": true,
+      "type": true,
+      "id": 21
+    },
+    {
+      "countCores": "2",
+      "processorType": "qqq",
+      "frequency": "4",
+      "manufacturer": "aaa",
+      "hardDisk": "aaa",
+      "typeOfRAM": "1544",
+      "technologyHyperThreading": false,
+      "bitArchitecture": false,
+      "type": true,
+      "id": 22
+    }
+  ]
+}

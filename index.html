@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <script src="lab_1.js"></script>
+    <style>
+        /*input:invalid {
+            border: 2px solid red;
+        }*/
+    </style>
+</head>
+<body>
+    <div class="container" style="top: 20px;">
+        <button class="btn btn-default" onclick="DDWAApp.MakeupManager.ElementsEventsProvider.moveToListComputers(); return false;">Список</button>
+        <div class="row">
+            <div class="col-md-6 offset-md-2">
+                <div id="showPart">
+                    <table id="computerList" class="table  table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Количество ядер процессора</th>
+                                <th>Тип процессора</th>
+                                <th>Частота</th>
+                                <th>Производитель</th>
+                                <th>Тип жесткого диска</th>
+                                <th>Размер ОЗУ</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-2">
+                <div id="detailsPart">
+                    <table id="tableDetails" class="table  table-bordered"></table>
+                </div>
+                <button id="createComputer" class="btn btn-default" onclick="DDWAApp.MakeupManager.ElementsEventsProvider.moveToCreateComputer(true); return false;">Создать</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-2">
+                <div id="createPart" style="margin: 10px; display: none;" class="panel panel-default">
+                    <div class="panel-body">
+                        <div id="createButtons">
+                            <button id="createUltrabook" class="btn btn-default" onclick="DDWAApp.MakeupManager.ElementsEventsProvider.moveToCreateComputer(true); return false;">Ультрабук</button>
+                            <button id="createComputerServise" class="btn btn-default" onclick="DDWAApp.MakeupManager.ElementsEventsProvider.moveToCreateComputer(false); return false;">Вычислительный сервер</button>
+                        </div>
+                        <form id="formComputer" onsubmit="return false;" role="form" novalidate></form>
+                    </div>
+                </div>
+
+             </div>
+         </div>
+    </div>
+</body>
+</html>
